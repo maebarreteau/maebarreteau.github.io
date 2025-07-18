@@ -38,7 +38,7 @@ function drawMaze() {
       }
     }
   }
-  // Dessiner le joueur
+  
   ctx.fillStyle = "cyan";
   ctx.fillRect(player.x * cellSize, player.y * cellSize, cellSize, cellSize);
 }
